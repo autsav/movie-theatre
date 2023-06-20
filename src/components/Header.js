@@ -6,7 +6,7 @@ const Header = () => {
         <header>
                 <Navbar variant='dark'   bg="dark" expand="lg"  collapseOnSelect>
                     <Container fluid >
-                      <Navbar.Brand href="#">Movie Theatre</Navbar.Brand>
+                      <Navbar.Brand href="/">Movie Theatre</Navbar.Brand>
                       <Navbar.Toggle aria-controls="navbarScroll" />
                       <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -15,7 +15,7 @@ const Header = () => {
                           navbarScroll
                         >
                           <Nav.Link href="#action1">WHAT'S ON</Nav.Link>
-                          <Nav.Link href="#action2">BIG SCREEN EVENTS</Nav.Link>
+                          <Nav.Link href="events">BIG SCREEN EVENTS</Nav.Link>
                           <Nav.Link href="#action2">INSIDE MOVIE THEATRE</Nav.Link>
                           <Nav.Link href="#action2">OFFERS</Nav.Link>
 
@@ -24,8 +24,8 @@ const Header = () => {
                        
 
                         <Nav className="d-flex">
-                          <Nav.Link href="#action1"><i className='fas fa-sign-in'></i> LOGIN</Nav.Link>
-                          <Nav.Link href="#action1"><i className='fas fa-user'></i> JOIN</Nav.Link>
+                          <Nav.Link href="/login"><i className='fas fa-sign-in'></i> LOGIN</Nav.Link>
+                          <Nav.Link href="/register"><i className='fas fa-user'></i> JOIN</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
                           <Form.Control

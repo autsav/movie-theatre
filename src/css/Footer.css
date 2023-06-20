@@ -1,0 +1,14 @@
+
+  .dark-background {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
